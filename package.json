@@ -1,8 +1,8 @@
 {
-  "name": "@aparajita/capacitor-dark-mode",
-  "version": "3.3.3",
+  "name": "@yolkin/capacitor-dark-mode",
+  "version": "4.0.0",
   "description": "Universal dark mode support for Ionic web and native apps",
-  "author": "Aparajita Fishman",
+  "author": "Aparajita Fishman (Forked by AE1NS)",
   "license": "MIT",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

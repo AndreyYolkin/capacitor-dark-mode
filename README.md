@@ -1,8 +1,11 @@
 <div class="markdown-body">
 
+### Heads up
+Use this as a temporary solution until the original plugin is updated to support Capacitor 5. See: https://github.com/aparajita/capacitor-dark-mode/pull/12
+
 # capacitor-dark-mode&nbsp;&nbsp;[![npm version](https://badge.fury.io/js/@aparajita%2Fcapacitor-dark-mode.svg)](https://badge.fury.io/js/@aparajita%2Fcapacitor-dark-mode)
 
-This [Capacitor 4](https://capacitorjs.com) plugin is a complete dark mode solution for Ionic web, iOS and Android.
+This fork for[Capacitor 5](https://capacitorjs.com) plugin is a complete dark mode solution for Ionic web, iOS and Android.
 
 ### ❗️Breaking changes
 

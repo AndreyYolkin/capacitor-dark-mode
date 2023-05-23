@@ -2,6 +2,107 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 5.0.0 (2023-05-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* Usage and API have changed, see the README.
+* Requires Capacitor 4.
+
+### Features
+
+* added appearance setter to config ([a591f6a](https://github.com/aparajita/capacitor-dark-mode/commit/a591f6aa4013242983b3239a9bad9ba5c3aa7806))
+* capacitor 5 support ([e2eb60a](https://github.com/aparajita/capacitor-dark-mode/commit/e2eb60a767ba936134e6e6368b983042d60a66fb))
+* export more utilities ([e961637](https://github.com/aparajita/capacitor-dark-mode/commit/e961637e6bfc129602cc90e59e1fb933a80fef45))
+* option to sync only status bar text ([7d808e3](https://github.com/aparajita/capacitor-dark-mode/commit/7d808e3d6ee343a3734f3917f24f2765529e807a)), closes [#2](https://github.com/aparajita/capacitor-dark-mode/issues/2)
+* rename configure, make docs clearer ([7c53542](https://github.com/aparajita/capacitor-dark-mode/commit/7c53542a6777b36352515452ba3f69dba538218d))
+* status bar color and transition options where is open YouTube ([0e7b6c6](https://github.com/aparajita/capacitor-dark-mode/commit/0e7b6c6b9e4b6b2d92fe64a218aee8a872a566f1))
+* this method does not need to be async ([0caef0d](https://github.com/aparajita/capacitor-dark-mode/commit/0caef0d96702140782ce9ede3214e449ae742dcc))
+* upgrade to Capacitor 4 ([51aaa1c](https://github.com/aparajita/capacitor-dark-mode/commit/51aaa1cb609d9314c1e4bad897d6aa3185dae8b2))
+
+
+### Bug Fixes
+
+* always update status bar ([0216109](https://github.com/aparajita/capacitor-dark-mode/commit/0216109b84951c045a104350c9f3cae9e132ed66))
+* disableTransitionsStyle issues ([26b00ee](https://github.com/aparajita/capacitor-dark-mode/commit/26b00ee03aead2416466476cefe4a6a61be2f205))
+* don’t import from package.json ([250059c](https://github.com/aparajita/capacitor-dark-mode/commit/250059c2b6e0cf0c8dbc13c0de9d9d9ae9a86743))
+* eliminate possible race condition ([7d7d5d3](https://github.com/aparajita/capacitor-dark-mode/commit/7d7d5d353f1250f2da0aa99a3fc6f2138e9c0448))
+* export the original plugin! ([c77bd4a](https://github.com/aparajita/capacitor-dark-mode/commit/c77bd4a5a33ad02b549a39e4d507de7aacf46ae4))
+* ignore spurious changes correctly ([675614e](https://github.com/aparajita/capacitor-dark-mode/commit/675614e7b1435bc2a909ed6d37c5a545bf865478))
+* not honoring stored appearance ([479c9bd](https://github.com/aparajita/capacitor-dark-mode/commit/479c9bda57bfde76b46c04fbd817adae3dd22e3b))
+* typing did not allow returning a Promise ([3d07f54](https://github.com/aparajita/capacitor-dark-mode/commit/3d07f546e8d047eecbf9ffa1616d6e2a90bd4ec7))
+
+
+### Refactoring
+
+* more script work ([168c8b3](https://github.com/aparajita/capacitor-dark-mode/commit/168c8b35063fa23398266b945f6bdd918176b950))
+* no native-decorator, lazy loading ([6c30703](https://github.com/aparajita/capacitor-dark-mode/commit/6c3070364d08596da87304364900872f4c9bd0de))
+* patch native methods ([2790ada](https://github.com/aparajita/capacitor-dark-mode/commit/2790ada43d3e9e16cd2e1bb21880f5523b145cd0))
+
+
+### Docs
+
+* need to handle the returned promise ([d347864](https://github.com/aparajita/capacitor-dark-mode/commit/d347864227ea60652763981ba4132056125fa8f4))
+* note the need for --background ([1c60297](https://github.com/aparajita/capacitor-dark-mode/commit/1c602977092779509017909eb6275824d8425bd3))
+* update for new features ([f82d86c](https://github.com/aparajita/capacitor-dark-mode/commit/f82d86c763011bbcf045e0f6f6bac075c11e8483))
+
+
+### Maintenance
+
+* API tweaks ([eca281e](https://github.com/aparajita/capacitor-dark-mode/commit/eca281edaed3b53af1d62f89a8b5243428a9e82e))
+* better definition of getter property ([0f7a3c4](https://github.com/aparajita/capacitor-dark-mode/commit/0f7a3c4bb9bc08c2f58757f88c47bce44325a91b))
+* commit README ([92ebe76](https://github.com/aparajita/capacitor-dark-mode/commit/92ebe76a5bf680b1688a213568a246a5b964b28c))
+* don’t generate docs until release ([c14b6ee](https://github.com/aparajita/capacitor-dark-mode/commit/c14b6ee239697a30af3ebdaa4cb6498a42462b23))
+* extract info before build ([7459226](https://github.com/aparajita/capacitor-dark-mode/commit/7459226b8c91072f3b99436ef4eb38baaf6c047c))
+* improve build system ([48e7478](https://github.com/aparajita/capacitor-dark-mode/commit/48e7478a72c7e8a8736663dd21aafd31d0d5af02))
+* initial commit ([a5eae19](https://github.com/aparajita/capacitor-dark-mode/commit/a5eae195b85ca3c2a644f9809153b6c7bb62aa99))
+* lint ([644695e](https://github.com/aparajita/capacitor-dark-mode/commit/644695e65fc78a26e00f7b1fcbe3586897a6ca1a))
+* package access ([3eb6a0d](https://github.com/aparajita/capacitor-dark-mode/commit/3eb6a0d4e0ea94bea7f609f06220a53b9131ae9e))
+* perform status bar changes as close together as possible ([9817740](https://github.com/aparajita/capacitor-dark-mode/commit/9817740d8dedbb56d40efadf61fd15a737ecddbd))
+* **release:** 1.0.0 ([40321c2](https://github.com/aparajita/capacitor-dark-mode/commit/40321c2f8cf35b3bdd3bc39c6b93994927d46b03))
+* **release:** 1.0.1 ([b1eb8a1](https://github.com/aparajita/capacitor-dark-mode/commit/b1eb8a1710a078137d3235db940120e0b839768b))
+* **release:** 1.1.0 ([27bb183](https://github.com/aparajita/capacitor-dark-mode/commit/27bb18310afd54fbc6267953c1f83efc3f64dea2))
+* **release:** 2.0.0 ([93290d2](https://github.com/aparajita/capacitor-dark-mode/commit/93290d24afe4c610654d6527e713d7dcb5f68760))
+* **release:** 2.0.1 ([3f9a016](https://github.com/aparajita/capacitor-dark-mode/commit/3f9a0167de1a5d1650fc8a6d1a34db95bd9f7e6c))
+* **release:** 2.0.2 ([ae226f6](https://github.com/aparajita/capacitor-dark-mode/commit/ae226f6e9d60822ea94cab0a4ecef811b09cbe45))
+* **release:** 2.1.0 ([19f457b](https://github.com/aparajita/capacitor-dark-mode/commit/19f457b2fc43a68f6487b7bd63625f3b22f684de))
+* **release:** 3.0.0 ([6a99125](https://github.com/aparajita/capacitor-dark-mode/commit/6a99125d7b20f7a8318c444c1bf63ec9e7dbbe1b))
+* **release:** 3.0.1 ([399355f](https://github.com/aparajita/capacitor-dark-mode/commit/399355fff3dddd2a334bf8a35aa8e83fbeb0c755))
+* **release:** 3.0.2 ([0ab7d17](https://github.com/aparajita/capacitor-dark-mode/commit/0ab7d17ce9c4cc92b121c2430422779c4fc6ca4a))
+* **release:** 3.0.3 ([7ff2c80](https://github.com/aparajita/capacitor-dark-mode/commit/7ff2c809c5b9194e1fd861ae44683af9b3825ca3))
+* **release:** 3.1.0 ([fe75d31](https://github.com/aparajita/capacitor-dark-mode/commit/fe75d31d33a0271b90788cf371bdb28586c8e784))
+* **release:** 3.1.1 ([00d69ee](https://github.com/aparajita/capacitor-dark-mode/commit/00d69ee7cf6c42118d32ecbc2f62638f5c4d03ee))
+* **release:** 3.2.0 ([d7a23b6](https://github.com/aparajita/capacitor-dark-mode/commit/d7a23b6dc5db4716fd9f416d10d17c1a65a50ce1))
+* **release:** 3.2.1 ([0051536](https://github.com/aparajita/capacitor-dark-mode/commit/00515363c37305045c0143021d2c580fb7b3965d))
+* **release:** 3.3.0 ([228ea24](https://github.com/aparajita/capacitor-dark-mode/commit/228ea247e9af1d1d73a5c22e491feecacb2ccb56))
+* **release:** 3.3.1 ([86728dc](https://github.com/aparajita/capacitor-dark-mode/commit/86728dcdbf7d93db52d1857774f86081e447306e))
+* **release:** 3.3.2 ([76b4e8b](https://github.com/aparajita/capacitor-dark-mode/commit/76b4e8b7d9077413b851828363a9e876d9fdb1e8))
+* **release:** 3.3.3 ([cd5c483](https://github.com/aparajita/capacitor-dark-mode/commit/cd5c48362f398c4fab13149c842f2b584741d996))
+* remove extra call to update() ([79dd5fe](https://github.com/aparajita/capacitor-dark-mode/commit/79dd5fe2f6ec975e7d739a9f735c0ef1f3e2acc2))
+* remove extra package.json ([758e912](https://github.com/aparajita/capacitor-dark-mode/commit/758e912dfa403dcb98256e850036514fc644131b))
+* remove husky, update deps ([f7a789b](https://github.com/aparajita/capacitor-dark-mode/commit/f7a789bb752d083bd3af83e5a8dec7996b9b47f1))
+* remove logging ([58bf79d](https://github.com/aparajita/capacitor-dark-mode/commit/58bf79d1233b786a50fd5add214354a191517a0e))
+* remove native-decorator stuff ([f6d008e](https://github.com/aparajita/capacitor-dark-mode/commit/f6d008eaf4e373ad3462cd104c0b43b7dff52020))
+* remove ultra-runner ([1a5f595](https://github.com/aparajita/capacitor-dark-mode/commit/1a5f595fe1220e8549851f04e84678acdb9cc81a))
+* remove unnecessary disable ([d3c9aa1](https://github.com/aparajita/capacitor-dark-mode/commit/d3c9aa1932ac97be83807a44298a3ea4d2d8e48c))
+* rename ([a54bf8e](https://github.com/aparajita/capacitor-dark-mode/commit/a54bf8e56b937e72d77eb7b1d1d9dcdbfc9559c0))
+* revert version, release script updates it ([c6b186a](https://github.com/aparajita/capacitor-dark-mode/commit/c6b186a5ea38f3b3adc98a8fef6e10726d264810))
+* rework scripts and build pipeline ([6eea2a0](https://github.com/aparajita/capacitor-dark-mode/commit/6eea2a0abb68ffbc61cf0b1e4a18ce806016498b))
+* update android deps ([19d1462](https://github.com/aparajita/capacitor-dark-mode/commit/19d146251e6f53687cf21e0a3d3ce11e332b5d28))
+* update deps ([b257cba](https://github.com/aparajita/capacitor-dark-mode/commit/b257cba8a1f9f6f35e0e1077651eb21efc61afdb))
+* update deps ([c9a2bab](https://github.com/aparajita/capacitor-dark-mode/commit/c9a2babe84fb595b608abcdd710169dfd58f7ed0))
+* update deps ([b63c23c](https://github.com/aparajita/capacitor-dark-mode/commit/b63c23c03057c7ff8ab99aa7179047faacdfba5f))
+* update deps ([b4450f5](https://github.com/aparajita/capacitor-dark-mode/commit/b4450f5e90fcfdff9611bf760d6aa47127c5d8a8))
+* update deps ([9930a27](https://github.com/aparajita/capacitor-dark-mode/commit/9930a27870790a6f31a25cf4940f8fe8cdd3041e))
+* update target to iOS 13, prepare for Cap4 ([43a4d3e](https://github.com/aparajita/capacitor-dark-mode/commit/43a4d3e383e1317ffa0aea3fb8b1e912a893bef9))
+* update to latest native-decorator ([f96d0a2](https://github.com/aparajita/capacitor-dark-mode/commit/f96d0a2c7b7c7b562509e291f82d5f0fa6b0fd5e))
+* update version, and name ([468f96b](https://github.com/aparajita/capacitor-dark-mode/commit/468f96bccc4f862103ee1bb034077b1767e84d0a))
+* use husky/commitlint ([2f14d7a](https://github.com/aparajita/capacitor-dark-mode/commit/2f14d7a81921dc7eeeba59e159177aab479f707e))
+* use pnpm only, pre/post scripts ([5c8aac1](https://github.com/aparajita/capacitor-dark-mode/commit/5c8aac182e981457cc28cffb2236ed5d5f16a9dd))
+* use ultra-runner ([69625c7](https://github.com/aparajita/capacitor-dark-mode/commit/69625c77517c167d57ae393e8103039ac517565c))
+* using tslib ([2b8c510](https://github.com/aparajita/capacitor-dark-mode/commit/2b8c510bc8c32a0c3cd7e1d11dd5d4720ab30889))
+
 ## [3.3.3](https://github.com/aparajita/capacitor-dark-mode/compare/v3.3.2...v3.3.3) (2023-03-28)
 
 

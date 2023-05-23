@@ -1,6 +1,6 @@
 //
 //  TraitsView.swift
-//  AparajitaCapacitorDarkMode
+//  YolkinCapacitorDarkMode
 //
 //  Created by Aparajita on 7/9/22.
 //
